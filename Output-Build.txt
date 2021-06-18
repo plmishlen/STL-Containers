@@ -1,0 +1,17 @@
+﻿Build started...
+1>------ Build started: Project: Network, Configuration: Debug Win32 ------
+1>Main.cpp
+1>C:\Users\Елена\source\repos\STL Containers\Network\Main.cpp(18,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\algorithm(3531,1): error C2446: '==': no conversion from 'const char [2]' to 'int'
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\algorithm(3531,25): message : There is no context in which this conversion is possible
+1>C:\Users\Елена\source\repos\STL Containers\Network\Main.cpp(72): message : see reference to function template instantiation 'void std::replace<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,char[2]>(const _FwdIt,const _FwdIt,const _Ty (&),const _Ty (&))' being compiled
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _FwdIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+1>            _Ty=char [2]
+1>        ]
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\algorithm(3532,1): error C2440: '=': cannot convert from 'const char [2]' to 'char'
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\algorithm(3532,24): message : There is no context in which this conversion is possible
+1>Done building project "Network.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
